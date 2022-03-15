@@ -1,0 +1,38 @@
+body
+{
+    text-align: center;
+    background-color: whitesmoke;
+}
+#top
+{
+    background: linear-gradient(black 0%, whitesmoke 100%);
+    color: navy;
+}
+h1
+{
+    font-size: 65px;
+}
+h2
+{
+    font-size: 35px;
+}
+p
+{
+    font-size: 12px;
+    text-align: left;
+}
+.btn
+{
+    border-radius: 20px;
+    height:45px;
+    width: 150px;
+    background-color: gray;
+}
+.menu
+{
+        font-family: Arial;
+}
+html
+{
+    margin-top: -45px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html><HTML>
+    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="prefetch">
+
+
+
+    <HEAD>
+        <TITLE>BES estate</TITLE>
+        <div id="top">
+            <h1>
+                BES estate: the perfect vacation place.
+            </h1>
+            <p>
+                Do you like fun vacations. Do you like cheap—well, not exactly cheap, but not expensive—vacations. Well then, look no further than B.E.S Estate. With not too expensive stuffs, but it will be a good trip. You will make good memories. It has: "the B.E.S.t Restaurant", "the B.E.S.t Hotel", and the "the B.E.S.t Amusment Park"
+            </p>
+            </div>
+    </HEAD>
+    <hr>
+    <br>
+        <div class="website">
+    <BODY>
+            <div class="title"></div>
+
+            </div>
+            <div class="Restaurants">
+                <div id="BEST restaurant" class="menu">
+                <h2>
+                    B.E.S.t Food:
+                </h2>
+                <p>
+                        A must go Restaurant when you visit. It has great foods (well it is the B.E.S.t Restaurant). I am sure that if you didn't go here the first time but then you go here the second time and go to the Restaurant you will regret not going to it the first time.
+                </p>
+           <button class="btn" onclick="res1()" id="res1">click here to order</button>
+           <button class="btn" onclick="res1info()" id="res1">click here for more info</button> 
+           <div>
+           <img src="" id="B.E.S.t r m" onclick="orderres1()">
+            </div>
+            </div>
+        </div>
+        <hr>
+                        <div id="BEST hotel" class="menu">
+            <h2>
+                B.E.S.t Hotel
+            </h2>
+            <p>
+                A must go Hotel when you visit. It has great foods (well it is the B.E.S.t Hotel). From what I've said, im pretty sure that you would want to come here. I mean, seriously, who wouldn't want to go there.
+            </p>
+            <div class="Hotels">
+                    <button class="btn" onclick="hot1()">click here to order</button> 
+                </div>
+            </div>
+        <hr>
+        <br>
+                        <div id="BEST park" class="menu">
+            <h2>
+                B.E.S.t Amusment Park
+            </h2>
+            <p>
+                A must go Amusment Park when you visit. It has great foods (well it is the B.E.S.t Amusment Park). Well, make the B.E.S.t out of your trip and come to the B.E.S.t Amusment Park!!
+            </p>
+            <div class="Tourism">
+                    <button  class="btn" onclick="amu1()">click here to order</button> 
+                </div>
+            </div>
+
+        </BODY>
+    </div>
+    <script>
+        function res1() {    
+            document.getElementById("B.E.S.t r m").src="B.E.S.T restaurant.svg";
+        }
+        function res1info() {   
+            location="http://127.0.0.1:5500/res1infoindex.html";
+          
+        }
+        function hot1() {
+            window.alert("This is unavalible right now")
+        }
+        function amu1() {
+            window.alert("This is unavalible right now")
+        }
+        function orderres1() {
+            location="http://127.0.0.1:5500/res1index.html";
+        }
+    </script>
+</HTML>

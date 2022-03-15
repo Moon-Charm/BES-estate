@@ -1,0 +1,12 @@
+
+BODY
+{
+    text-align: center;
+    background-color: gray;
+}
+#big
+{
+    font-size: 70px;
+    color: red;
+    background: linear-gradient(black 0%, gray 100%);
+}

@@ -1,0 +1,53 @@
+HTML
+{
+    text-align: center;
+    background-color: gray;
+}
+.back
+{
+    height: 100px;
+    width: 40px;
+    border-radius: 20px;
+}
+.split
+{
+    height: 100px;
+    width: 100px;
+}
+.btn
+{
+    height: 35px;
+    width: auto;
+    border-radius: 15px;
+}
+p
+{
+    display: inline;
+}
+.order
+{
+    text-align: left;
+}
+#back
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+h1
+{
+    display: inline;
+}
+.indent
+{
+    height: 30px;
+    width: 100px;
+}
+.span2
+{
+    display: inline;
+}
+#back:hover
+{
+    scale: 1.5;
+}
